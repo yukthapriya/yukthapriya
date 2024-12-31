@@ -41,7 +41,7 @@
 ## 📫 **How to Reach Me...**  
 - 📧 Email: myukthapriya@gmail.com
 - 🌍 LinkedIn: https://www.linkedin.com/in/yukthapriya 
-- 📝 Portfolio: [Your Portfolio/Blog](#)  
+
 
 ---
 
