@@ -1,5 +1,6 @@
 ## Hi there 👋, I'm Yuktha Priya Masupalli
-**Data Engineer | Frontend Developer | Full Stack Engineer | Machine Learning Enthusiast | Researcher | Tech Innovator**
+**Software Engineer | Data Engineer | Full Stack Developer | Machine Learning Enthusiast | Researcher | Innovator**
+
 
 ---
 
