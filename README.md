@@ -10,7 +10,6 @@
 
 - Building scalable full-stack applications with **React, Node.js, and MongoDB**
 - Researching **multimodal AI**, including CLIP, diffusion models, and LLMs
-- Developing **secure SDN architectures** using OpenFlow, TLS, and WPA3
 - Enhancing **AI-driven feedback systems** through audio-video analysis and GCP deployment
 
 ## 🌱 Currently Learning
