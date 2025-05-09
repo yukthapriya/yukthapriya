@@ -1,71 +1,51 @@
-## Hi there 👋, I'm Yuktha Priya Masupalli
-**Software Engineer | Data Engineer | Full Stack Developer | Machine Learning Enthusiast | Researcher | Innovator**
+# 👋 Hi there, I'm Yuktha Priya Masupalli
 
-
----
-
-## 🔭 **I’m Currently Working On...**  
-- Building **scalable web applications** using **React**, **Node.js**, and **MongoDB**  
-- Enhancing my expertise in **machine learning models**, particularly for **real-time applications**  
-- Researching **SDN security** with a focus on **OpenFlow**, **TLS**, and **WPA3** to improve the security of **network systems**
+🎓 Graduate Research Assistant @ Texas A&M University–San Antonio  
+💻 Software Engineer | Data Engineer | Full Stack Developer | Machine Learning Researcher  
+🌐 Passionate about building intelligent systems and secure, scalable software solutions.
 
 ---
 
-## 🌱 **I’m Currently Learning...**  
-- Advanced **machine learning algorithms** and their applications in real-world scenarios  
-- **Cloud infrastructure** and **DevOps practices** to improve application deployment  
-- **Graph databases** (Neo4j) for **data visualization** and **vulnerability detection** in software systems
+## 🔭 What I'm Working On
+
+- Building scalable full-stack applications with **React, Node.js, and MongoDB**
+- Researching **multimodal AI**, including CLIP, diffusion models, and LLMs
+- Developing **secure SDN architectures** using OpenFlow, TLS, and WPA3
+- Enhancing **AI-driven feedback systems** through audio-video analysis and GCP deployment
+
+## 🌱 Currently Learning
+
+- **Advanced machine learning algorithms** for real-time applications
+- **Cloud infrastructure & DevOps** (AWS, GCP, Azure, Kubernetes)
+- **Graph databases (Neo4j)** for vulnerability detection and recommendation systems
+
+## 🤝 Looking to Collaborate On
+
+- Open-source projects in **ML, AI, and software engineering**
+- Tools and platforms that bridge **AI and cybersecurity**
+- Research in **vision-language models** and secure networking protocols
+
+## 🤔 Seeking Guidance In
+
+- **Serverless architectures** and advanced **cloud-native design patterns**
+- Deep-diving into **network protocol security** for SDN environments
+
+## 💬 Ask Me About
+
+- Building secure SDN environments (TLS, WPA3, OpenFlow)
+- ML frameworks: **PyTorch**, **TensorFlow**, **Keras**
+- Full-stack development: **React**, **Node.js**, **Flask**
+- Data engineering practices: **NoSQL**, **PostgreSQL**, **ETL pipelines**
+
+## 📫 Connect With Me
+
+📧 Email: myukthapriya@gmail.com  
+🔗 LinkedIn: [linkedin.com/in/yukthapriya](https://www.linkedin.com/in/yukthapriya)  
+🐙 GitHub: [github.com/yukthapriya](https://github.com/yukthapriya)  
 
 ---
 
-## 👯 **I’m Looking to Collaborate On...**  
-- **Open-source projects** focused on **machine learning**, **data engineering**, and **web development**  
-- **Innovative projects** at the intersection of **software security** and **networking**  
-- **Collaborations** in **frontend and full-stack development** to build impactful software solutions
+## ⚡ Fun Fact
 
----
+I'm a hackathon enthusiast, open-source contributor, and always excited about using **AI for social good**. Let’s build something impactful together!
 
-## 🤔 **I’m Looking for Help With...**  
-- Understanding advanced **cloud technologies** and **serverless architecture**  
-- Enhancing my **networking protocols** knowledge for **SDN** (Software Defined Networking)  
-
----
-
-## 💬 **Ask Me About...**  
-- Building **secure SDN environments** with **TLS** and **WPA3**  
-- **Machine learning frameworks** like **TensorFlow** and **PyTorch**  
-- Developing **interactive web applications** with **React**  
-- **Data engineering best practices** and **NoSQL** databases
-
----
-
-## 📫 **How to Reach Me...**  
-- 📧 Email: myukthapriya@gmail.com
-- 🌍 LinkedIn: https://www.linkedin.com/in/yukthapriya 
-
-
----
-
-## 😄 **Pronouns:**  
-- She/Her  
-
----
-
-## ⚡ **Fun Fact:**  
-- I’m passionate about **open-source contributions** and love collaborating on **tech innovations** that create positive societal impact!  
-
-
-<!--
-**yukthapriya/yukthapriya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
