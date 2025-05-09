@@ -8,7 +8,7 @@
 
 ## 🔭 What I'm Working On
 
-- Building scalable full-stack applications with **React, Node.js, and MongoDB**
+- Building scalable full-stack applications with **React, AngularJS, Node.js, and MongoDB**
 - Researching **multimodal AI**, including CLIP, diffusion models, and LLMs
 - Enhancing **AI-driven feedback systems** through audio-video analysis and GCP deployment
 - Working with **Rust**, **Static Analysis tools**, and **Machine Learning** to detect software vulnerabilities and improve system reliability
@@ -28,14 +28,14 @@
 ## 🤔 Seeking Guidance In
 
 - **Serverless architectures** and advanced **cloud-native design patterns**
-- Deep-diving into **network protocol security** for SDN environments
+- Scaling AI systems efficiently across diverse platforms
 
 ## 💬 Ask Me About
 
-- Building secure SDN environments (TLS, WPA3, OpenFlow)
 - ML frameworks: **PyTorch**, **TensorFlow**, **Keras**
 - Full-stack development: **React**, **Node.js**, **Flask**
 - Data engineering practices: **NoSQL**, **PostgreSQL**, **ETL pipelines**
+- - Secure systems development using **Rust** and static analysis
 
 ## 📫 Connect With Me
 
