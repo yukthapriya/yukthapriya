@@ -11,6 +11,7 @@
 - Building scalable full-stack applications with **React, Node.js, and MongoDB**
 - Researching **multimodal AI**, including CLIP, diffusion models, and LLMs
 - Enhancing **AI-driven feedback systems** through audio-video analysis and GCP deployment
+- Working with **Rust**, **Static Analysis tools**, and **Machine Learning** to detect software vulnerabilities and improve system reliability
 
 ## 🌱 Currently Learning
 
