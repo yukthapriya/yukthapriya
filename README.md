@@ -38,14 +38,12 @@
 - - Secure systems development using **Rust** and static analysis
     
 ## 📄 Publications
-Improving Medical Imaging Model Calibration through Probabilistic Embedding
-IEEE Big Data 2024
-
-Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval under Occlusion Attacks
-arXiv preprint
-
-Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness Through Calibration via Gaussian Distribution
-IEEE Xplore
+1) Improving Medical Imaging Model Calibration through Probabilistic Embedding
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10908492&isnumber=10908486
+2) Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval under Occlusion Attacks
+https://doi.org/10.48550/arXiv.2501.09134
+3) Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness Through Calibration via Gaussian Distribution
+https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10908492&isnumber=10908486
 
 
 ## 📫 Connect With Me
