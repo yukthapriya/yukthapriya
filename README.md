@@ -36,6 +36,17 @@
 - Full-stack development: **React**, **Node.js**, **Flask**
 - Data engineering practices: **NoSQL**, **PostgreSQL**, **ETL pipelines**
 - - Secure systems development using **Rust** and static analysis
+    
+## 📄 Publications
+Improving Medical Imaging Model Calibration through Probabilistic Embedding
+IEEE Big Data 2024
+
+Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval under Occlusion Attacks
+arXiv preprint
+
+Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness Through Calibration via Gaussian Distribution
+IEEE Xplore
+
 
 ## 📫 Connect With Me
 
