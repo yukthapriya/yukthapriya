@@ -42,6 +42,8 @@
 https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10908492&isnumber=10908486
 2) Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval under Occlusion Attacks
 https://doi.org/10.48550/arXiv.2501.09134
+3) Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness Through Calibration via Gaussian Distribution
+   https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10908492&isnumber=10908486
 
 
 ## 📫 Connect With Me
