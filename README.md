@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Yuktha Priya Masupalli
 
-🎓 Graduate Research Assistant @ Texas A&M University–San Antonio  
+🎓Former Graduate Research Assistant @ Texas A&M University–San Antonio  
 💻 Software Engineer | Data Engineer(1 Year Experience) | Full Stack Developer | Machine Learning Researcher  
 🌐 Passionate about building intelligent systems and secure, scalable software solutions.
 
