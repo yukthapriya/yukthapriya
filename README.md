@@ -1,60 +1,122 @@
-# 👋 Hi there, I'm Yuktha Priya Masupalli
+<h1 align="center">Hi 👋, I'm Yuktha Priya Masupalli</h1>
+<h3 align="center">Software Engineer | Full-Stack Developer | AI/ML Engineer</h3>
 
-🎓Former Graduate Research Assistant @ Texas A&M University–San Antonio  
-💻 Software Engineer | Data Engineer(1 Year Experience) | Full Stack Developer | Machine Learning Researcher  
-🌐 Passionate about building intelligent systems and secure, scalable software solutions.
+<p align="center">
+  M.S. in Computer Science @ Texas A&M University–San Antonio <br>
+  Former Graduate Research Assistant | Published AI Researcher <br>
+  Passionate about scalable systems, intelligent applications, and high-performance computing
+</p>
 
 ---
 
-## 🔭 What I'm Working On
+## 🚀 About Me
 
-- Building scalable full-stack applications with **React, AngularJS, Node.js, and MongoDB**
-- Researching **multimodal AI**, including CLIP, diffusion models, and LLMs
-- Enhancing **AI-driven feedback systems** through audio-video analysis and GCP deployment
-- Working with **Rust**, **Static Analysis tools**, and **Machine Learning** to detect software vulnerabilities and improve system reliability
+- 💻 Software Engineer with experience in **full-stack and AI systems**
+- 🤖 Built **machine learning and multimodal AI applications**
+- ⚙️ Interested in **distributed systems, HPC, and scalable architectures**
+- 🔬 Published research in **medical AI and contrastive learning**
+- 🌎 Open to **Software Engineering, Full-Stack, and AI/ML roles**
 
-## 🌱 Currently Learning
+---
 
-- **Advanced machine learning algorithms** for real-time applications
-- **Cloud infrastructure & DevOps** (AWS, GCP, Azure, Kubernetes)
-- **Graph databases (Neo4j)** for vulnerability detection and recommendation systems
+## 🛠 Tech Stack
 
-## 🤝 Looking to Collaborate On
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-- Open-source projects in **ML, AI, and software engineering**
-- Tools and platforms that bridge **AI and cybersecurity**
-- Research in **vision-language models** and secure networking protocols
+### Full-Stack
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
-## 🤔 Seeking Guidance In
+### AI / ML
+![PyTorch](https://img.shields.io/badge/PyTorch-E34F26?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 
-- **Serverless architectures** and advanced **cloud-native design patterns**
-- Scaling AI systems efficiently across diverse platforms
+### Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-## 💬 Ask Me About
+---
 
-- ML frameworks: **PyTorch**, **TensorFlow**, **Keras**
-- Full-stack development: **React**, **Node.js**, **Flask**
-- Data engineering practices: **NoSQL**, **PostgreSQL**, **ETL pipelines**
-- - Secure systems development using **Rust** and static analysis
-    
-## 📄 Publications
-1) Improving Medical Imaging Model Calibration through Probabilistic Embedding
-https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10908492&isnumber=10908486
-2) Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval under Occlusion Attacks
-https://doi.org/10.48550/arXiv.2501.09134
-3) Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness Through Calibration via Gaussian Distribution
-   https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10908492&isnumber=10908486
+## 🌟 Featured Projects
 
+### 🔹 AI-Powered Multimodal Feedback System
+- Built a system analyzing **audio, video, and text** using ML models
+- Deployed scalable inference pipelines on **Google Cloud**
+- Improved feedback accuracy using multimodal learning
 
-## 📫 Connect With Me
+### 🔹 Graph-Based Software Vulnerability Detection
+- Developed a **graph database + ML pipeline** using Neo4j
+- Detected software vulnerabilities through **code property graphs**
+- Combined static analysis with machine learning models
 
-📧 Email: myukthapriya@gmail.com  
-🔗 LinkedIn: [linkedin.com/in/yukthapriya](https://www.linkedin.com/in/yukthapriya)  
-🐙 GitHub: [github.com/yukthapriya](https://github.com/yukthapriya)  
+### 🔹 Full-Stack Intelligent Task Manager
+- Built a **React + Node.js** productivity platform
+- Integrated ML-based task prioritization
+- Designed REST APIs and scalable backend architecture
+
+### 🔹 Medical Image-Report Retrieval (Research)
+- Implemented contrastive learning models: **CLIP, MedCLIP**
+- Benchmarked robustness under **occlusion attacks**
+- Contributed to published research in medical AI
+
+### 🔹 HPC-Based Parallel ML Training (Project)
+- Implemented distributed model training workflows
+- Optimized performance across multi-core environments
+- Reduced training time using parallel processing techniques
+
+---
+
+## 📚 Publications
+
+- Improving Medical Imaging Model Calibration through Probabilistic Embedding  
+- Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval  
+- Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness  
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yukthapriya&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yukthapriya&theme=tokyonight" />
+</p>
+
+---
+
+## 📈 Contribution Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yukthapriya&theme=tokyo-night" />
+</p>
+
+---
+
+## 🤝 Let’s Connect
+
+<p align="center">
+  <a href="mailto:myukthapriya@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://linkedin.com/in/yukthapriya">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/yukthapriya">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 ---
 
 ## ⚡ Fun Fact
 
-I'm a hackathon enthusiast, open-source contributor, and always excited about using **AI for social good**. Let’s build something impactful together!
-
+I’m a hackathon enthusiast who loves building **end-to-end AI systems**—from model training to production-ready full-stack deployments.
