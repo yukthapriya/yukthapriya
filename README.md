@@ -1,69 +1,62 @@
-# Hi 👋, I'm Yuktha Priya Masupalli
+# Yuktha Priya Masupalli
 
-Software Engineer | Full-Stack Developer | AI/ML Engineer  
+**Software Engineer | Full-Stack Developer | AI/ML Engineer**
 
-M.S. in Computer Science @ Texas A&M University–San Antonio  
+M.S. in Computer Science — Texas A&M University–San Antonio  
 Former Graduate Research Assistant | Published AI Researcher  
-Passionate about building intelligent, scalable, and high-performance software systems.
+Focused on building scalable software systems, intelligent applications, and high-performance computing solutions.
 
 ---
 
-## 🚀 About Me
+## About Me
 
-- Software Engineer with experience in **full-stack and AI systems**
-- Built **machine learning and multimodal AI applications**
-- Interested in **distributed systems, HPC, and scalable architectures**
+- Software Engineer with experience in **full-stack and AI-driven systems**
+- Built and deployed **machine learning and multimodal applications**
+- Interested in **distributed systems, scalable backends, and HPC**
 - Published research in **medical AI and contrastive learning**
 - Open to **Software Engineering, Full-Stack, and AI/ML roles**
 
 ---
 
-## 🛠 Tech Stack
+## Core Skills
 
-### Languages
+**Languages**  
 Python • JavaScript • Java • C++ • Rust • SQL  
 
-### Full-Stack
-React • Node.js • Flask • REST APIs • MongoDB  
+**Software Engineering**  
+System Design • REST APIs • Backend Architecture • Data Structures & Algorithms  
 
-### AI / ML
-PyTorch • TensorFlow • Scikit-learn • Computer Vision • Multimodal AI  
+**Full-Stack**  
+React • Node.js • Flask • MongoDB • PostgreSQL  
 
-### Cloud & DevOps
+**AI / Machine Learning**  
+PyTorch • TensorFlow • Scikit-learn • Computer Vision • Multimodal Models  
+
+**Cloud & DevOps**  
 AWS • GCP • Docker • Kubernetes • CI/CD  
 
 ---
 
-## 🌟 Featured Projects
+## Key Projects
 
 ### AI-Powered Multimodal Feedback System
-- Built a system analyzing **audio, video, and text** using ML models
+- Built an intelligent system analyzing **audio, video, and text** inputs
 - Deployed scalable inference pipelines on **Google Cloud**
-- Improved feedback accuracy using multimodal learning
+- Improved feedback accuracy using multimodal ML models
 
 ### Graph-Based Software Vulnerability Detection
-- Developed a **graph database + ML pipeline** using Neo4j
-- Detected software vulnerabilities through **code property graphs**
-- Combined static analysis with machine learning models
+- Developed a **Neo4j graph database + ML pipeline**
+- Detected vulnerabilities using **code property graphs**
+- Combined static analysis with machine learning for security insights
 
-### Full-Stack Intelligent Task Manager
-- Built a **React + Node.js** productivity platform
-- Integrated ML-based task prioritization
-- Designed REST APIs and scalable backend architecture
-
-### Medical Image-Report Retrieval (Research)
-- Implemented contrastive learning models: **CLIP, MedCLIP**
-- Benchmarked robustness under **occlusion attacks**
-- Contributed to published research in medical AI
-
-### HPC-Based Parallel ML Training (Project)
-- Implemented distributed model training workflows
-- Optimized performance across multi-core environments
-- Reduced training time using parallel processing techniques
+### Full-Stack Intelligent Task Platform
+- Designed and built a **React + Node.js** productivity application
+- Implemented ML-based task prioritization
+- Developed scalable REST APIs and backend architecture
 
 ---
 
-## 📚 Publications
+## Publications
 
 - Improving Medical Imaging Model Calibration through Probabilistic Embedding  
 - Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval  
@@ -71,28 +64,31 @@ AWS • GCP • Docker • Kubernetes • CI/CD
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Analytics
 
-![Yuktha's GitHub stats](https://github-readme-stats.vercel.app/api?username=yukthapriya&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yukthapriya&show_icons=true&theme=tokyonight&hide_border=true)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yukthapriya&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yukthapriya&layout=compact&theme=tokyonight&hide_border=true)
 
----
-
-## 📈 Contribution Graph
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=yukthapriya&theme=tokyo-night)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=yukthapriya&theme=tokyonight&hide_border=true)
 
 ---
 
-## 🤝 Connect With Me
+## Activity Graph
 
-- Email: myukthapriya@gmail.com  
-- LinkedIn: https://linkedin.com/in/yukthapriya  
-- GitHub: https://github.com/yukthapriya  
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=yukthapriya&theme=tokyo-night&hide_border=true)
 
 ---
 
-## 💡 Beyond Coding
+## Contact
 
-I enjoy turning research ideas into real-world software products and continuously learning new technologies that improve system performance and scalability.
+- Email: myukthapriya@gmail.com
+- LinkedIn: https://linkedin.com/in/yukthapriya
+- GitHub: https://github.com/yukthapriya
+
+---
+
+## Professional Focus
+
+I specialize in building **production-ready software systems** that combine strong engineering practices with intelligent machine learning capabilities.  
+My work centers on scalability, performance, and real-world impact.
