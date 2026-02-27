@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Yuktha Priya Masupalli</h1>
-<h3 align="center">Frontend Engineer (Angular) | Full-Stack Developer | ML/AI Research</h3>
+<h3 align="center">Frontend Engineer | Full-Stack Developer | ML/AI Research</h3>
 
 <p align="center">
   M.S. in Computer Science @ Texas A&M University–San Antonio <br>
