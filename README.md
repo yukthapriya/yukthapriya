@@ -1,73 +1,76 @@
-<h1 align="center">Hi 👋, I'm Yuktha Priya Masupalli</h1>
-<h3 align="center">Software Engineer | Full-Stack Developer | AI/ML Engineer</h3>
+<h1 align="center">Hi, I'm Yuktha Priya Masupalli</h1>
+<h3 align="center">Frontend Engineer (Angular) | Full-Stack Developer | ML/AI Research</h3>
 
 <p align="center">
   M.S. in Computer Science @ Texas A&M University–San Antonio <br>
-  Former Graduate Research Assistant with publications in medical AI | Published AI Researcher <br>
-  Passionate about scalable systems, intelligent applications, and high-performance computing
+  1 year industry experience (customer-facing Angular UI) | Former Graduate Research Assistant | Published in Medical AI <br>
+  I build reliable user experiences and ML-enabled applications with a strong focus on quality and scalability
 </p>
 
 ---
 
-## 🚀 About Me
+## About Me
 
-- 💻 Software Engineer with experience in **full-stack and AI systems**  
-- 🤖 Built **machine learning and multimodal AI applications**  
-- ⚙️ Interested in **distributed systems, HPC, and scalable architectures**  
-- 🔬 Published research in **medical AI and contrastive learning**  
-- 🌎 Open to **Software Engineering, Full-Stack, and AI/ML roles**
+- Frontend-focused Software Engineer with **1 year of industry experience**, primarily in **Angular** for customer-facing, forms-heavy applications
+- Built production UI features including **multi-step onboarding**, **document upload + validation**, and **subscription/settings** experiences
+- Research background in **medical AI** (contrastive learning, robustness evaluation), with peer-reviewed publications
+- Interested in building end-to-end systems: **well-designed UIs**, **clean APIs**, **data/ML pipelines**, and **cloud deployments**
+- Open to **Frontend (Angular), Full-Stack, and ML/AI Engineer** roles
 
 ---
 
 ## What I'm Working On
 
-- Developing AI-powered and full-stack applications using **React, Node.js, and cloud platforms**  
-- Building machine learning models for **vision, multimodal, and real-world data applications**  
-- Exploring **high-performance computing (HPC) and scalable AI workloads**  
-- Designing **secure, efficient backend systems** using modern languages and architectures
+- Building maintainable Angular applications with strong practices around **reusability, accessibility, testing, and performance**
+- Designing robust UI ↔ API integration: typed service layers, resilient error states, and predictable state management
+- Exploring production ML workflows: reproducible training, evaluation, and deployment-ready inference
 
 ---
 
-## 🌱 Currently Learning
+## Currently Learning
 
-- Distributed systems and scalable backend architectures  
-- Cloud-native development (**AWS, GCP, Kubernetes, CI/CD**)  
-- Advanced deep learning and multimodal AI  
-- Performance optimization for **large-scale software and ML systems**
-
----
-
-## 🤝 Looking to Collaborate On
-
-- Open-source projects in **software engineering, AI/ML, or distributed systems**  
-- Full-stack platforms with **intelligent features**  
-- Tools combining **AI, data engineering, and scalable infrastructure**
+- Advanced Angular patterns (RxJS best practices, scalable component architecture, performance profiling)
+- Cloud-native development: **AWS/GCP basics, Docker, Kubernetes fundamentals, CI/CD**
+- Backend fundamentals: API design, authentication patterns, observability (logs/metrics/tracing)
+- ML system practices: dataset quality, monitoring, and evaluation under distribution shift
 
 ---
 
-## 💬 Ask Me About
+## Looking to Collaborate On
 
-- **Software Engineering:** System design, APIs, scalable backends  
-- **Full-Stack Development:** React, Node.js, Flask, RESTful services  
-- **Machine Learning:** PyTorch, TensorFlow, deep learning pipelines  
-- **Data Engineering:** PostgreSQL, NoSQL, ETL workflows  
-- **Systems & Security:** Rust, static analysis, performance optimization
+- Open-source projects in **frontend engineering** and **full-stack product development**
+- Projects where ML is delivered as a **usable product feature** (not just a notebook)
+- Tools combining **data + ML + strong UX** (dashboards, developer tools, monitoring UIs)
 
 ---
 
-## 🛠 Tech Stack
+## Ask Me About
+
+- **Frontend (Angular):** component design, forms, validation, RxJS, performance, accessibility  
+- **Full-Stack:** API integration, auth flows, error handling, caching basics  
+- **Machine Learning:** PyTorch/TensorFlow, training/evaluation pipelines, multimodal systems  
+- **Data Engineering:** PostgreSQL/NoSQL basics, ETL concepts, data quality mindset  
+- **Systems & Security:** Rust fundamentals, static analysis concepts, performance profiling  
+
+---
+
+## Tech Stack
 
 ### Languages
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
 
-### Full-Stack
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+### Frontend
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
+
+### Backend / Data
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### AI / ML
@@ -83,43 +86,43 @@
 
 ---
 
-## 🌟 Featured Projects
+## Featured Projects
 
-### 🔹 AI-Powered Multimodal Feedback System
-- Built a system analyzing **audio, video, and text** using ML models  
-- Deployed scalable inference pipelines on **Google Cloud**  
-- Improved feedback accuracy using multimodal learning  
+### AI-Powered Multimodal Feedback System
+- Built a system that analyzes **audio, video, and text** signals for automated feedback
+- Deployed scalable inference pipelines on **Google Cloud**
+- Improved feedback quality through multimodal modeling and systematic evaluation
 
-### 🔹 Graph-Based Software Vulnerability Detection
-- Developed a **graph database + ML pipeline** using Neo4j  
-- Detected software vulnerabilities through **code property graphs**  
-- Combined static analysis with machine learning models  
+### Graph-Based Software Vulnerability Detection
+- Developed a **graph database + ML pipeline** using Neo4j to incorporate structural code signals
+- Modeled programs using **code property graphs** to support vulnerability classification
+- Explored hybrid approaches combining **static analysis features** with ML models
 
-### 🔹 Full-Stack Intelligent Task Manager
-- Built a **React + Node.js** productivity platform  
-- Integrated ML-based task prioritization  
-- Designed REST APIs and scalable backend architecture  
+### Full-Stack Intelligent Task Manager
+- Built a **React + Node.js** productivity platform with well-structured REST APIs
+- Integrated ML-based task ranking/prioritization
+- Focused on maintainable backend design, validation, and persistence
 
-### 🔹 Medical Image-Report Retrieval (Research)
-- Implemented contrastive learning models: **CLIP, MedCLIP**  
-- Benchmarked robustness under **occlusion attacks**  
-- Contributed to published research in medical AI  
+### Medical Image–Report Retrieval (Research)
+- Implemented contrastive learning models (e.g., **CLIP-style** and medical variants)
+- Benchmarked robustness under distribution shifts (including occlusion)
+- Contributed to peer-reviewed publications in medical AI
 
-### 🔹 HPC-Based Parallel ML Training (Project)
-- Implemented distributed model training workflows  
-- Optimized performance across multi-core environments  
-- Reduced training time using parallel processing techniques  
+### HPC-Based Parallel ML Training (Project)
+- Implemented parallel training workflows and profiled performance bottlenecks
+- Optimized throughput across multi-core environments via improved parallelization and data loading
 
 ---
 
-## 📚 Publications
+## Publications
 
 - Improving Medical Imaging Model Calibration through Probabilistic Embedding  
 - Benchmarking the Robustness of Contrastive Learning Models for Medical Image-Report Retrieval  
 - Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness  
 
 ---
-## 🤝 Let’s Connect
+
+## Let’s Connect
 
 <p align="center">
   <a href="mailto:myukthapriya@gmail.com">
@@ -141,6 +144,6 @@
 
 ---
 
-## ⚡ Fun Fact
+## Fun Fact
 
-I enjoy turning **research ideas into real-world, scalable software** and continuously exploring new technologies to improve system performance and efficiency.
+I enjoy turning research ideas into **production-oriented software**—with a strong focus on user experience, correctness, and maintainability.
