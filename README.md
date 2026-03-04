@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Yuktha Priya Masupalli</h1>
-## <h3 align="center">Frontend Engineer | Full-Stack Developer | ML/AI Research</h3>
+
 <h3 align="center">AI/ML Engineer | Full-Stack & Frontend Developer | Trustworthy Medical AI Researcher | Distributed Systems & Rust Security Enthusiast</h3>
 
 <p align="center">
