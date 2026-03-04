@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Yuktha Priya Masupalli</h1>
 
-<h3 align="center">AI/ML Engineer | Full-Stack & Frontend Developer | Trustworthy Medical AI Researcher | Distributed Systems & Rust Security Enthusiast</h3>
+<h3 align="center">AI/ML Engineer | Full-Stack Developer | Trustworthy Medical AI Researcher | Distributed Systems & Rust Security Enthusiast</h3>
 
 <p align="center">
   M.S. in Computer Science @ Texas A&M University–San Antonio <br>
