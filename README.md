@@ -90,29 +90,30 @@
 
 ## Featured Projects
 
-### AI-Powered Multimodal Feedback System
-- Built a system that analyzes **audio, video, and text** signals for automated feedback
-- Deployed scalable inference pipelines on **Google Cloud**
-- Improved feedback quality through multimodal modeling and systematic evaluation
+### ARIA — Autonomous Research Intelligence Agent
+- Multi-agent system for **end-to-end academic research**: reading, hypothesis generation, experiment design, and report writing
+- Implements **specialized agents** (Reader, Hypothesis, Experiment, Report, Synthesis, Debate) with structured context handoff
+- Supports PDF ingestion, arXiv search, citation graphing, and exportable research reports
 
-### Graph-Based Software Vulnerability Detection
-- Developed a **graph database + ML pipeline** using Neo4j to incorporate structural code signals
-- Modeled programs using **code property graphs** to support vulnerability classification
-- Explored hybrid approaches combining **static analysis features** with ML models
+### Uncertainty-Aware KV-Cache Routing for vLLM
+- Prototype **distributed router** that selects among multiple vLLM-style nodes using KV-cache awareness and uncertainty scoring
+- Separates **control plane (Python)** from **scoring path (Rust)** for low-latency KV-aware ranking
+- Implements routing strategies (kv_aware, least_loaded, round_robin), fallback on failure, and detailed routing metrics
 
-### Full-Stack Intelligent Task Manager
-- Built a **React + Node.js** productivity platform with well-structured REST APIs
-- Integrated ML-based task ranking/prioritization
-- Focused on maintainable backend design, validation, and persistence
+### Cloré — Multimodal Personal Stylist & Virtual Try-On
+- Mobile-first web app that acts as an **AI personal stylist** with outfit suggestions and wardrobe management
+- Uses **Groq LLM** for outfit reasoning and **IDM-VTON diffusion** for virtual try-on via a Python ML server
+- Designed with multi-endpoint fallback, local try-on, and JSON-structured LLM outputs
 
-### Medical Image–Report Retrieval (Research)
-- Implemented contrastive learning models (e.g., **CLIP-style** and medical variants)
-- Benchmarked robustness under distribution shifts (including occlusion)
-- Contributed to peer-reviewed publications in medical AI
+### InterviewFlow — Real-Time Collaborative Coding Platform
+- Full-stack **collaborative coding** platform with Monaco editor, Socket.io-based real-time sync, and JWT auth
+- Supports persistent interview sessions, in-session chat, and pluggable code execution (mocked or Piston/Judge0)
+- Containerized with Docker and deployable behind Nginx; structured for production-style workflows
 
-### HPC-Based Parallel ML Training (Project)
-- Implemented parallel training workflows and profiled performance bottlenecks
-- Optimized throughput across multi-core environments via improved parallelization and data loading
+### MedProbCLIP — Medical Image–Report Retrieval (Research)
+- Probabilistic vision–language framework modeling radiograph–report pairs as **Gaussian embeddings**
+- Improves calibration and robustness for chest X-ray retrieval; trained on large-scale **MIMIC-CXR**
+- Published in **WACV/AAAI/IEEE** as part of trustworthy medical AI research
 
 ---
 
