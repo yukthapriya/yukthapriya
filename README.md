@@ -12,7 +12,7 @@
 
 ## About Me
 
-- Frontend-focused Software Engineer with **1 year of industry experience**, primarily in **Angular** for customer-facing, forms-heavy applications
+- Frontend-focused Software Engineer with **1+ year of industry experience**, primarily in **Angular** for customer-facing, forms-heavy applications
 - Built production UI features including **multi-step onboarding**, **document upload + validation**, and **subscription/settings** experiences
 - Research background in trustworthy **medical AI** (contrastive learning, robustness evaluation), with peer-reviewed publications
 - Interested in building end-to-end systems: **well-designed UIs**, **clean APIs**, **data/ML pipelines**, and **cloud deployments**
