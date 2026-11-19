@@ -1,111 +1,66 @@
-<h1 align="center">Hi, I'm Yuktha Priya Masupalli 👋</h1>
+# Hi, I'm Yuktha Priya Masupalli
 
-<h3 align="center">Software Engineer · Angular Frontends · ML-Powered Products · Trustworthy Medical AI</h3>
+I'm an AI/ML engineer. Most of my work comes back to one question: **how do you know when a model shouldn't be trusted?**
 
-<p align="center">
-  <a href="mailto:myukthapriya@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/yukthapriya"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://scholar.google.com/citations?hl=en&user=UkX-bOYAAAAJ"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" /></a>
-  <a href="https://www.researchgate.net/profile/Yuktha-Priya-Masupalli"><img src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat-square&logo=researchgate&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=yukthapriya&style=flat-square&color=blue&label=Profile+views" />
-</p>
+I started asking it in medical imaging. A retrieval model that pulls the wrong radiology report with full confidence is worse than one that admits it isn't sure, so my research focused on teaching vision-language models to express uncertainty. That work has been published at WACV 2026, IEEE BigData 2024, and an AAAI 2025 workshop.
 
-<p align="center">
-  🎓 M.S. Computer Science, Texas A&M University–San Antonio &nbsp;·&nbsp;
-  💼 2+ years building production Angular UIs &nbsp;·&nbsp;
-  📄 Published in medical AI (incl. Springer, 2026)
-</p>
+Now I apply the same thinking to LLM systems: routing inference requests intelligently, getting agents to check each other's work, and writing Rust where Python is too slow.
 
-<p align="center"><b>🟢 Open to Software Engineer, Frontend, Full-Stack, and ML Engineer roles</b></p>
+I've also spent 2+ years as a software engineer shipping customer-facing Angular apps. I care about the whole path from training run to API to the screen someone actually clicks on, because a model nobody can use isn't finished.
+
+M.S. Computer Science, Texas A&M University–San Antonio. Looking for ML Engineer, AI Engineer, and Applied ML roles.
+
+[Email](mailto:myukthapriya@gmail.com) · [LinkedIn](https://linkedin.com/in/yukthapriya) · [Google Scholar](https://scholar.google.com/citations?user=UkX-bOYAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Yuktha-Priya-Masupalli)
 
 ---
 
-### ⚡ TL;DR
+## What I've built
 
-I build **reliable, user-facing software** and ship **ML as real product features**, not notebooks.
+### [MedProbCLIP](https://github.com/yukthapriya/REPO_NAME): retrieval that knows when it's unsure
+Python · PyTorch · MIMIC-CXR · WACV 2026
 
-- **Industry:** Built customer-facing Angular features in production: multi-step onboarding, document upload & validation, and subscription/settings flows, with a focus on reusability, accessibility, and test coverage.
-- **Research:** Former Graduate Research Assistant working on trustworthy medical AI. Designed probabilistic vision–language models that improve **calibration and robustness** for chest X-ray retrieval on MIMIC-CXR.
-- **Systems:** Recently building LLM infrastructure and agentic systems, including a Rust-accelerated KV-cache-aware router for vLLM and a multi-agent research assistant.
+Standard CLIP maps every X-ray and report to a single point, so it can't say "I'm not confident about this match." MedProbCLIP represents each one as a Gaussian instead. The spread of the distribution carries the uncertainty, which gives better-calibrated retrieval and more stable behavior when inputs are noisy or shifted. Trained on MIMIC-CXR.
 
----
+### [KV-cache aware router for vLLM](https://github.com/yukthapriya/REPO_NAME)
+Python · Rust · vLLM
 
-### 🚀 Featured Projects
+When you run several vLLM nodes, sending a request to the node that already has its prefix cached saves real compute. This router scores nodes on KV-cache overlap and an uncertainty signal, with the scoring written in Rust so it stays off the latency budget. It includes `kv_aware`, `least_loaded`, and `round_robin` strategies for comparison, automatic failover, and per-request routing metrics.
 
-| Project | What it is | Stack |
-|---|---|---|
-| **[KV-Cache Router for vLLM](https://github.com/yukthapriya/REPO_NAME)** | Distributed request router that ranks vLLM nodes by KV-cache affinity + uncertainty. Python control plane, **Rust scoring path** for low-latency ranking. Pluggable strategies (`kv_aware`, `least_loaded`, `round_robin`), failover, and per-route metrics. | Python · Rust · vLLM |
-| **[ARIA](https://github.com/yukthapriya/REPO_NAME)** | Autonomous research agent: six specialized agents (Reader, Hypothesis, Experiment, Debate, Synthesis, Report) with structured context handoff. PDF ingestion, arXiv search, citation graphs, exportable reports. | Python · LLMs · Multi-agent |
-| **[MedProbCLIP](https://github.com/yukthapriya/REPO_NAME)** | Probabilistic CLIP for radiograph–report retrieval. Models image/text pairs as **Gaussian embeddings** to improve calibration and robustness. Basis of my published research. | PyTorch · MIMIC-CXR |
-| **[InterviewFlow](https://github.com/yukthapriya/REPO_NAME)** | Real-time collaborative coding interviews: Monaco editor, Socket.io sync, JWT auth, persistent sessions, in-session chat, and pluggable code execution (Piston / Judge0). Dockerized behind Nginx. | Node.js · Socket.io · Docker |
-| **[Cloré](https://github.com/yukthapriya/REPO_NAME)** | Mobile-first AI stylist with wardrobe management. Groq LLM for outfit reasoning with JSON-structured outputs, **IDM-VTON diffusion** for virtual try-on, multi-endpoint fallback. | LLMs · Diffusion · Python |
+### [ARIA](https://github.com/yukthapriya/REPO_NAME): a research team made of agents
+Python · LLMs · Multi-agent
 
----
+Six agents (Reader, Hypothesis, Experiment, Debate, Synthesis, Report) take a research question from papers to a written report. The Debate agent exists because single-agent pipelines tend to agree with themselves; it pushes back on hypotheses before they reach the report. Handles PDF ingestion, arXiv search, and citation graphs.
 
-### 📄 Publications
+### [Cloré](https://github.com/yukthapriya/REPO_NAME): AI stylist with virtual try-on
+Python · LLMs · Diffusion · Full-stack
 
-- **Improving Medical Imaging Model Calibration through Probabilistic Embedding** <!-- add venue + year, e.g. — WACV Workshop 2025 · [paper](link) -->
-- **Benchmarking Robustness of Contrastive Learning Models for Medical Image-Report Retrieval**  
-  *Generative AI in Healthcare* (Springer, Studies in Computational Intelligence, vol. 1245), 2026 · [Chapter](https://link.springer.com/chapter/10.1007/978-3-032-11999-5_15)
-- **Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness** <!-- add venue + year + link -->
+Suggests outfits from your own wardrobe and shows them on you. An LLM on Groq returns structured JSON for outfit reasoning, and IDM-VTON handles try-on from a separate inference server. Fallback endpoints and a local try-on path keep it working when a model service is down.
 
-→ Full list on [Google Scholar](https://scholar.google.com/citations?hl=en&user=UkX-bOYAAAAJ)
+### [InterviewFlow](https://github.com/yukthapriya/REPO_NAME): live coding interviews
+Node.js · Socket.io · Docker · Nginx
+
+Shared Monaco editor synced in real time, JWT auth, saved sessions, chat, and pluggable code execution through Piston or Judge0. Containerized behind Nginx.
 
 ---
 
-### 🛠️ Tech Stack
+## Publications
 
-**Languages**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-**Frontend**
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logo=reactivex&logoColor=white)
-
-**Backend & Data**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socketdotio&logoColor=white)
-
-**ML & LLMs**
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-
-**Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+- **MedProbCLIP: Probabilistic Adaptation of Vision-Language Foundation Model for Reliable Radiograph-Report Retrieval** · WACV 2026
+- **Uncertainty-Aware Vision–Language Learning Improves Chest X-Ray Retrieval** · IEEE Pulse 2026
+- **[Benchmarking Robustness of Contrastive Learning Models for Medical Image-Report Retrieval](https://link.springer.com/chapter/10.1007/978-3-032-11999-5_15)** · AAAI 2025 Workshop, Springer 2026
+- **Probabilistic Embedding for Enhancing Medical Imaging Model Trustworthiness Through Calibration via Gaussian Distribution** · 2025, first author
+- **Improving Medical Imaging Model Calibration through Probabilistic Embedding** · IEEE BigData 2024
 
 ---
 
-### 🎯 What I'm Focused On Now
+## What I work with
 
-- **LLM serving & infra:** cache-aware routing, latency-sensitive paths in Rust, inference observability
-- **Agentic systems:** multi-agent orchestration with structured handoff and evaluation
-- **Frontend at scale:** RxJS patterns, component architecture, and performance profiling in Angular
-- **Reliable ML:** calibration, robustness under distribution shift, and production monitoring
-
-💬 **Ask me about:** Angular forms & RxJS · contrastive / probabilistic embeddings · medical image retrieval · vLLM & KV-cache routing · Rust for performance-critical paths
-
----
-
-### 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=yukthapriya&show_icons=true&hide_border=true&count_private=true&theme=default" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yukthapriya&layout=compact&hide_border=true&langs_count=6" />
-</p>
+**ML:** PyTorch, TensorFlow, Hugging Face, scikit-learn, vLLM
+**Languages:** Python, TypeScript, Rust, Java, C++
+**Backend:** Flask, Node.js, PostgreSQL, MongoDB, Socket.io
+**Frontend:** Angular, RxJS
+**Infra:** Docker, Nginx, AWS, GCP, Kubernetes
 
 ---
 
-<p align="center"><i>I like turning research ideas into production software that's correct, usable, and maintainable.</i></p>
+If you're working on uncertainty in ML, LLM serving, or medical AI, I'd like to hear about it. Email is the fastest way to reach me.
