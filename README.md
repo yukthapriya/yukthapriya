@@ -1,5 +1,5 @@
 <!-- <img src="banner.jpg" alt="Yuktha Priya Masupalli, AI/ML Engineer and Full-Stack Developer" width="100%"> -->
-<img src="banner-v2.jpg" alt="Yuktha Priya Masupalli, AI/ML Engineer and Full-Stack Developer" width="100%">
+<img src="banner.jpg" alt="Yuktha Priya Masupalli, AI/ML Engineer and Full-Stack Developer" width="100%">
 
 ## Hi, I'm Yuktha
 
