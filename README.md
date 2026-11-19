@@ -97,10 +97,6 @@ Also: Hugging Face, vLLM, RxJS, Socket.io
 
 ---
 
-## Activity
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yukthapriya&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=bc8cff&area=true&area_color=58a6ff&hide_border=true&radius=8" width="100%" alt="Contribution graph" />
-
----
 
 If you're building something with ML, LLMs, or a product that needs both, I'd like to hear about it. Email is the fastest way to reach me.
