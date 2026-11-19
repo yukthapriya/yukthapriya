@@ -1,4 +1,6 @@
-# Hi, I'm Yuktha Priya Masupalli
+<img src="assets/banner.svg" alt="Yuktha Priya Masupalli, AI/ML Engineer" width="100%">
+
+## Hi, I'm Yuktha
 
 I'm an AI/ML engineer. Most of my work comes back to one question: **how do you know when a model shouldn't be trusted?**
 
@@ -6,7 +8,7 @@ I started asking it in medical imaging. A retrieval model that pulls the wrong r
 
 Now I apply the same thinking to LLM systems: routing inference requests intelligently, getting agents to check each other's work, and writing Rust where Python is too slow.
 
-I've also spent 2+ years as a software engineer shipping customer-facing Angular, React apps. I care about the whole path from training run to API to the screen someone actually clicks on, because a model nobody can use isn't finished.
+I've also spent 2+ years as a software engineer shipping customer-facing Angular apps. I care about the whole path from training run to API to the screen someone actually clicks on, because a model nobody can use isn't finished.
 
 M.S. Computer Science, Texas A&M University–San Antonio. Looking for ML Engineer, AI Engineer, and Applied ML roles.
 
@@ -21,15 +23,43 @@ Python · PyTorch · MIMIC-CXR · WACV 2026
 
 Standard CLIP maps every X-ray and report to a single point, so it can't say "I'm not confident about this match." MedProbCLIP represents each one as a Gaussian instead. The spread of the distribution carries the uncertainty, which gives better-calibrated retrieval and more stable behavior when inputs are noisy or shifted. Trained on MIMIC-CXR.
 
+```mermaid
+flowchart LR
+    X[Chest X-ray] --> IE[Image encoder] --> IG["Gaussian<br/>(mean, variance)"]
+    R[Radiology report] --> TE[Text encoder] --> TG["Gaussian<br/>(mean, variance)"]
+    IG --> M{Probabilistic<br/>match}
+    TG --> M
+    M --> O[Retrieval score<br/>+ confidence]
+```
+
 ### [KV-cache aware router for vLLM](https://github.com/yukthapriya/REPO_NAME)
 Python · Rust · vLLM
 
 When you run several vLLM nodes, sending a request to the node that already has its prefix cached saves real compute. This router scores nodes on KV-cache overlap and an uncertainty signal, with the scoring written in Rust so it stays off the latency budget. It includes `kv_aware`, `least_loaded`, and `round_robin` strategies for comparison, automatic failover, and per-request routing metrics.
 
+```mermaid
+flowchart LR
+    C[Client request] --> P[Router<br/>Python control plane]
+    P <--> S[Scoring core<br/>Rust]
+    S -. KV-cache overlap<br/>+ uncertainty .-> P
+    P --> N1[vLLM node 1]
+    P --> N2[vLLM node 2]
+    P --> N3[vLLM node 3]
+    P -. failover .-> N2
+```
+
 ### [ARIA](https://github.com/yukthapriya/REPO_NAME): a research team made of agents
 Python · LLMs · Multi-agent
 
 Six agents (Reader, Hypothesis, Experiment, Debate, Synthesis, Report) take a research question from papers to a written report. The Debate agent exists because single-agent pipelines tend to agree with themselves; it pushes back on hypotheses before they reach the report. Handles PDF ingestion, arXiv search, and citation graphs.
+
+```mermaid
+flowchart LR
+    Q[Research question] --> RD[Reader] --> H[Hypothesis] --> E[Experiment]
+    E --> D[Debate]
+    D -- rejects --> H
+    D -- accepts --> SY[Synthesis] --> RP[Report]
+```
 
 ### [Cloré](https://github.com/yukthapriya/REPO_NAME): AI stylist with virtual try-on
 Python · LLMs · Diffusion · Full-stack
@@ -55,11 +85,18 @@ Shared Monaco editor synced in real time, JWT auth, saved sessions, chat, and pl
 
 ## What I work with
 
-**ML:** PyTorch, TensorFlow, Hugging Face, scikit-learn, vLLM
-**Languages:** Python, TypeScript, Rust, Java, C++
-**Backend:** Flask, Node.js, PostgreSQL, MongoDB, Socket.io
-**Frontend:** Angular, RxJS
-**Infra:** Docker, Nginx, AWS, GCP, Kubernetes
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,rust,ts,java,cpp&theme=dark" alt="ML and languages" /><br/>
+  <img src="https://skillicons.dev/icons?i=flask,nodejs,postgres,mongodb,angular,docker,nginx,kubernetes,aws,gcp&theme=dark" alt="Backend, frontend, infrastructure" />
+</p>
+
+Also: Hugging Face, vLLM, RxJS, Socket.io
+
+---
+
+## Activity
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=yukthapriya&bg_color=0d1117&color=c9d1d9&line=58a6ff&point=bc8cff&area=true&area_color=58a6ff&hide_border=true&radius=8" width="100%" alt="Contribution graph" />
 
 ---
 
