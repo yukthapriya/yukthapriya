@@ -6,7 +6,7 @@ I started asking it in medical imaging. A retrieval model that pulls the wrong r
 
 Now I apply the same thinking to LLM systems: routing inference requests intelligently, getting agents to check each other's work, and writing Rust where Python is too slow.
 
-I've also spent 2+ years as a software engineer shipping customer-facing Angular apps. I care about the whole path from training run to API to the screen someone actually clicks on, because a model nobody can use isn't finished.
+I've also spent 2+ years as a software engineer shipping customer-facing Angular, React apps. I care about the whole path from training run to API to the screen someone actually clicks on, because a model nobody can use isn't finished.
 
 M.S. Computer Science, Texas A&M University–San Antonio. Looking for ML Engineer, AI Engineer, and Applied ML roles.
 
