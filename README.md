@@ -1,16 +1,18 @@
-<img src="assets/banner.svg" alt="Yuktha Priya Masupalli, AI/ML Engineer" width="100%">
+<img src="Banner.jpg" alt="Yuktha Priya Masupalli, AI/ML Engineer and Full-Stack Developer" width="100%">
 
 ## Hi, I'm Yuktha
 
-I'm an AI/ML engineer. Most of my work comes back to one question: **how do you know when a model shouldn't be trusted?**
+I'm an AI/ML engineer and full-stack developer. I like owning the whole thing: training the model, building the service around it, and shipping the interface people use.
 
-I started asking it in medical imaging. A retrieval model that pulls the wrong radiology report with full confidence is worse than one that admits it isn't sure, so my research focused on teaching vision-language models to express uncertainty. That work has been published at WACV 2026, IEEE BigData 2024, and an AAAI 2025 workshop.
+**What I work on**
 
-Now I apply the same thinking to LLM systems: routing inference requests intelligently, getting agents to check each other's work, and writing Rust where Python is too slow.
+- **Machine learning and computer vision.** Vision-language models, contrastive learning, representation learning, and model evaluation. My research on reliable medical image retrieval is published at WACV 2026, IEEE BigData 2024, and an AAAI 2025 workshop.
+- **LLMs and agents.** Multi-agent pipelines, structured LLM outputs, retrieval over documents, and LLM-powered product features.
+- **ML infrastructure.** Inference serving with vLLM, request routing, containerized deployment, and Rust for performance-critical code.
+- **Generative AI.** Diffusion-based image generation and virtual try-on, served behind fault-tolerant APIs.
+- **Full-stack engineering.** 2+ years shipping customer-facing Angular apps in industry, plus REST and real-time backends in Node.js and Flask.
 
-I've also spent 2+ years as a software engineer shipping customer-facing Angular apps. I care about the whole path from training run to API to the screen someone actually clicks on, because a model nobody can use isn't finished.
-
-M.S. Computer Science, Texas A&M University–San Antonio. Looking for ML Engineer, AI Engineer, and Applied ML roles.
+M.S. Computer Science, Texas A&M University–San Antonio. Open to ML Engineer, AI Engineer, Applied Scientist, and Full-Stack roles.
 
 [Email](mailto:myukthapriya@gmail.com) · [LinkedIn](https://linkedin.com/in/yukthapriya) · [Google Scholar](https://scholar.google.com/citations?user=UkX-bOYAAAAJ) · [ResearchGate](https://www.researchgate.net/profile/Yuktha-Priya-Masupalli)
 
@@ -100,4 +102,4 @@ Also: Hugging Face, vLLM, RxJS, Socket.io
 
 ---
 
-If you're working on uncertainty in ML, LLM serving, or medical AI, I'd like to hear about it. Email is the fastest way to reach me.
+If you're building something with ML, LLMs, or a product that needs both, I'd like to hear about it. Email is the fastest way to reach me.
