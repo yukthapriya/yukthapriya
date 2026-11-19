@@ -1,7 +1,7 @@
 <!-- <img src="banner.jpg" alt="Yuktha Priya Masupalli, AI/ML Engineer and Full-Stack Developer" width="100%"> -->
 <img src="banner.jpg" alt="Yuktha Priya Masupalli, AI/ML Engineer and Full-Stack Developer" width="100%">
 
-## Hi, I'm Yuktha
+## Hi, I'm Yuktha Priya Masupalli
 
 I'm an AI/ML engineer and full-stack developer. I like owning the whole thing: training the model, building the service around it, and shipping the interface people use.
 
