@@ -3,7 +3,7 @@
 
 ## Hi, I'm Yuktha Priya Masupalli
 
-I'm an AI/ML engineer and full-stack developer. I like owning the whole thing: training the model, building the service around it, and shipping the interface people use.
+I'm an AI engineer and full-stack developer. I like owning the whole thing: training the model, building the service around it, and shipping the interface people use.
 
 **What I work on**
 
