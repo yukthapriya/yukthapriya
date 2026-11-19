@@ -63,7 +63,30 @@ flowchart LR
     D -- rejects --> H
     D -- accepts --> SY[Synthesis] --> RP[Report]
 ```
-
+### [Prompt-injection defense for LLM customer service agents](https://github.com/yukthapriya/agentic-ai-chatbot-defense)
+Python · PyTorch · DistilBERT · LangChain · NeMo Guardrails · Ollama · Dask · Streamlit
+ 
+LLM support agents that can issue refunds or look up orders are an easy target: one crafted message can override their instructions or leak customer data. This is a defense-in-depth pipeline where each agent catches a different kind of attack before the request reaches the model, and an output guard checks what comes back.
+ 
+- **Layered checks:** Unicode normalization and 60+ regex rules for known jailbreaks, deterministic routing with role-based access control for privileged actions, then a fine-tuned DistilBERT classifier and Guardrails policies for semantic attacks.
+- **Private by design:** the LLM (Llama 3.1 8B) runs locally through Ollama, with RAG for grounded answers and an output guard that redacts sensitive data before it leaves the system.
+- **Built to scale:** Dask-based anomaly detection tracks attack patterns across large query volumes, and a Streamlit dashboard lets a human review flagged queries.
+- **Results on 50,000 mixed attack and benign queries:** 83.8% recall, 0.80 F1, about 3.5 ms average detection latency, and roughly 5% added end-to-end latency. [Project report](https://github.com/yukthapriya/agentic-ai-chatbot-defense/blob/main/Mitigating_prompt_injections_in_llm_based_customer_service_agents_Project_Report.pdf)
+```mermaid
+flowchart LR
+    U[User message] --> PF[PreFilter<br/>normalize + regex]
+    PF --> RT[Router<br/>rules + RBAC]
+    RT --> SA[Security agent<br/>DistilBERT + Guardrails]
+    SA --> QA[Query agent<br/>local LLM + RAG]
+    QA --> OG[Output guard<br/>redact + block]
+    OG --> R[Safe response]
+    PF -. block .-> X[Blocked / human review]
+    RT -. block .-> X
+    SA -. block .-> X
+    OG -. block .-> X
+    M[(Dask anomaly<br/>monitoring)] -.- RT
+```
+ 
 ### [Cloré](https://github.com/yukthapriya/REPO_NAME): AI stylist with virtual try-on
 Python · LLMs · Diffusion · Full-stack
 
